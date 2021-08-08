@@ -33,9 +33,7 @@ export default {
         }
       }]
     }
-  },created(){
-    this.foods = this.$page.FoodPandee.foods
-  }
+  },
 };
 </script>
 
