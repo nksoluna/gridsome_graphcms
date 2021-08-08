@@ -4,7 +4,7 @@
       <h1 class="title">Our Food</h1>
       <p class="paragraph products-layout" >เมนูอาหารสุดพิเศษของพวกเรา สำหรับคนกลางคืนเช่นคุณ โปรดเลือกเมนูเพื่อดำเนินการต่อ!!</p>
        <div class="typeManu">
-        <button class="typeButt" v-on:click="displayOnedish()">อาหารจารเดียว</button>
+        <button class="typeButt" v-on:click="displayOnedish()">อาหารจานเดียว</button>
         <button class="typeButt" v-on:click="displayCurry()">ข้าวแกง</button>
         <button class="typeButt" v-on:click="displayNoodle()">ก๋วยเตี๋ยว</button>
       </div>
