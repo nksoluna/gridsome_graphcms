@@ -26,7 +26,7 @@
           <div v-if="foods.name==input">
             <div @click="goTo(foods.name)" class="food_containers">
               <img :src= foods.image[0].url class="food_img">
-              <p class="food_info">{{foods.name}} {{ foods.price }}</p>
+              <p class="food_info">เมนู : {{foods.name}} <br>ราคา : {{ foods.price }} บาท</p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
           <div v-if="foods.price>=input_price_min && foods.price<=input_price_max">
             <div @click="goTo(foods.name)" class="food_containers">
               <img :src= foods.image[0].url class="food_img">
-              <p class="food_info">{{foods.name}} {{ foods.price }}</p>
+             <p class="food_info">เมนู : {{foods.name}} <br>ราคา : {{ foods.price }} บาท</p>
             </div>
           </div>
         </div>
