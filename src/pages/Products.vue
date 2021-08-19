@@ -24,7 +24,7 @@
           <div v-if="index>=showfood_from && index<=showfood_to">
             <div @click="goTo(food.name)" class="food_containers">
                   <img :src="food.image[0].url" class="food_img" />
-                  <p class="food_info">{{ food.name }} {{ food.price }}</p>
+                  <p class="food_info">เมนู : {{ food.name }} <br> ราคา : {{ food.price }} บาท</p>
             </div>
           </div>
         </li>
@@ -34,7 +34,7 @@
           <div v-if="index>=showfood_from && index<=showfood_to">
             <div @click="goTo(food.name)" class="food_containers">
                   <img :src="food.image[0].url" class="food_img" />
-                  <p class="food_info">{{ food.name }} {{ food.price }}</p>
+                 <p class="food_info">เมนู : {{ food.name }} <br> ราคา : {{ food.price }} บาท</p>
             </div>
           </div>
         </li>
